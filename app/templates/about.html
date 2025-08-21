@@ -1,0 +1,13 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>{{ title }}</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/style.css') }}">
+</head>
+<body>
+    <h1>{{ title }}</h1>
+    <p>This is the About page. If you see this, it’s working ✅</p>
+
+    <a href="{{ url_for('main.home') }}">Back to Home</a>
+</body>
+</html>
